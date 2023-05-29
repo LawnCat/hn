@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "13";
+    src: url("../static/13.woff2") format("woff2");
+}
+header{
+    /* border: 1px solid red; */
+    height: 130px;
+    /* width: 100px; */
+    /* background-color:blue; */
+    /* position: fixed; */
+    background-color: rgba(195, 197, 197, 0.2);
+}
+.logo{
+    /* border: 1px solid red; */
+    height: 130px;
+    width: 500px;
+    float: left;
+    position: relative;
+    left: 10px;
+    /* background-image: url(/images/full_logo.png); */
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo h1{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    color: black;
+    font-family: "13";
+    font-size: 40px;
+    /* text-shadow: 0 0 10px royalblue,0 0 20px royalblue,0 0 30px royalblue,0 0 40px royalblue; */
+
+}
+.logo img{
+    position: relative;
+    top: -35px;
+}
+.menu{
+    float: right;
+    width: 900px;
+    /* border: 1px solid green; */
+    height: 130px;
+    position: relative;
+    right: 10px;
+    top: 9px;
+}
+.menu a{
+    font-family: "13";
+    display: inline-block;
+    font-size: 38px;
+    width:bolder;
+    line-height: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    /* text-shadow: 0 0 10px royalblue,0 0 20px royalblue,0 0 30px royalblue,0 0 40px royalblue; */
+    border-radius: 30px;
+}
+.menu a:hover{
+    /* background-color:rgb(18, 107, 174,0.1); */
+    box-shadow: rgb(193, 185, 185) 0px 20px 30px;
+    /* color: red; */
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+
+.main{
+    /* border: 1px solid red; */
+    height: 800px;
+    font-family: "13";
+    margin-top: 30px;
+}
+.main p{
+    font-family: "13";
+    font-size: 50px;
+    text-align: center;
+}
+.main div{
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 110px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.s1{
+    background-image: url("../images/s1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s2{
+    background-image: url("../images/s2.jpg");
+    background-size: cover;
+    background-position: right ;
+}
+.s3{
+    background-image: url("../images/s3.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.s4{
+    background-image: url("../images/s4\ \(2\).jpg");
+    background-size: cover;
+    background-position: right;
+}
+.s5{
+    background-image: url("../images/s5.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.s6{
+    background-image: url("../images/s6.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.big_box{
+    /* border: 12px solid red; */
+    height: 600px;
+}
+.small_box{
+    /* border:1px solid green; */
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.box_left_image{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+#lmsk{
+    background-image: url("../images/lmsg.jpg");
+}
+.box_left_wz{
+    width: 560px;
+    height: 500px;
+    /* border: 1px solid red; */
+    float: right;
+    font-family: "13";
+    margin-right: 110px;
+}
+.box_left_wz h1{
+    text-align: center;
+    font-size: 40px;
+} 
+.box_left_wz p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.box_rigth_image{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: right;
+    float: right;
+}
+#qmshy{
+    background-image: url(../images/qmshy.jpg);
+}
+.box_rigth_wz{
+    width: 560px;
+    height: 500px;
+    /* border: 1px solid red; */
+    float: left;
+    font-family: "13";
+    margin-left: 110px;
+}
+.box_rigth_wz h1{
+    text-align: center;
+    font-size: 40px;
+}
+.box_rigth_wz p{
+    font-size: 20px;
+    line-height: 40px;
+}
+#bys{
+    background-image: url(../images/bys.jpg);
+    /* background-position: */
+}
+#sls{
+    background-image: url(../images/sls.jpg);
+    background-position: left;
+}
+#yts{
+    background-image: url(../images/yts.jpg);
+}
+#bms{
+    background-image: url(../images/bms.jpg);
+    /* background-position: left; */
+    background-position: 40% 75%;
+
+}

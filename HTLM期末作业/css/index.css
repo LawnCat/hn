@@ -1,0 +1,600 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "13";
+    src: url("../static/13.woff2") format("woff2");
+}
+@font-face {
+    font-family: "12";
+    src: url("../static/12.woff2") format("woff2");
+}
+header{
+    /* border: 1px solid red; */
+    height: 130px;
+    /* width: 100px; */
+    /* background-color:blue; */
+    position: fixed;
+}
+.logo{
+    /* border: 1px solid red; */
+    height: 130px;
+    width: 500px;
+    float: left;
+    position: relative;
+    left: 10px;
+    /* background-image: url(/images/full_logo.png); */
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo h1{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    color: white;
+    font-family: "13";
+    font-size: 40px;
+    text-shadow: 0 0 10px royalblue,0 0 20px royalblue,0 0 30px royalblue,0 0 40px royalblue;
+
+}
+.logo img{
+    position: relative;
+    top: -35px;
+}
+.menu{
+    float: right;
+    width: 1000px;
+    /* border: 1px solid green; */
+    height: 130px;
+    position: relative;
+    right: 10px;
+    top: 9px;
+}
+.menu a{
+    font-family: "13";
+    display: inline-block;
+    font-size: 38px;
+    width:bolder;
+    line-height: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    text-shadow: 0 0 10px royalblue,0 0 20px royalblue,0 0 30px royalblue,0 0 40px royalblue;
+    border-radius: 30px;
+}
+.menu a:hover{
+    background-color:rgb(18, 107, 174,0.1);
+    box-shadow: white 0px 20px 30px;
+    /* color: red; */
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+.body2{
+    /* border: 1px solid red; */
+    height: 850px;
+    /* background-image: url(/images/banner3.jpg); */
+    
+    
+}
+
+.body{
+    /* border:1px solid red; */
+    height: 850px;
+}
+.body {
+    background:url("../images/banner5.jpg")  no-repeat center center;   /*加载背景图*/   /* 背景图不平铺 */
+    background-size:cover;  /* 让背景图基于容器大小伸缩 */
+    background-attachment:fixed;        /**当内容高度大于图片高度时，背景图像的位置相对于viewport固定    //此条属性必须设置否则可能无效/ */
+    background-color:#CCCCCC;   /* 设置背景颜色，背景图加载过程中会显示背景色 */
+  }
+
+
+  .body2{
+background-color: rgb(250, 235, 215,0.3);
+  }
+.body2_left{
+    background-image: url("../images/citys_banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 1px solid green; */
+    height: 700px;
+    width: 800px;
+    margin-top: 140px;
+    /* position: relative; */
+    float: left;
+}
+.body2_rigth{
+    /* border: 1px solid blue; */
+    height: 700px;
+    width: 770px;
+    margin-top: 140px;
+
+    float: right;
+}
+.body2_wz{
+    font-family: "13";
+    font-size: 30px;
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 600px;
+    margin-left: 132px;
+    margin-top: 86px;
+    line-height: 61px;;
+}
+.body2_video{
+   margin-top: 100px;
+}
+
+
+
+.select{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 435px;
+}
+.select div{
+    /* border: 1px solid red; */
+    display: inline;
+    width: 50px;
+    height: 40px;
+    float: left;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.left{
+    /* border: 1px solid red; */
+    width: 100px;   
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.left_pointer{
+    visibility: hidden;
+    float: right;
+    /* border: 1px solid blue; */
+    width: 100px;   
+    height: 100px;
+    background: url("../images/left.png") no-repeat center;
+
+}
+
+.right{
+    width: 100px;
+    /* border: 1px solid red; */
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+.right_pointer{
+    visibility: hidden;
+    float: left;
+    /* border: 1px solid blue; */
+    width: 100px;   
+    height: 100px;
+    background: url("../images/right.png") no-repeat center;    
+}
+
+
+.left_pointer,.right_pointer:hover{
+    cursor: pointer;
+}
+.body3{
+    background-color: rgb(250, 235, 215,0.3);
+
+    /* border: 1px solid red; */
+    height: 1000px;
+}
+.Upper_left_corner{
+    margin-top: 30px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    height: 430px;
+    width: 830px;
+    float: left;
+}
+.Upper_right_corner{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin-right: 40px;
+    height: 500px;
+    width: 630px;
+    float: right;
+}
+.Upper_left_corner_right{
+    /* border: 1px solid red; */
+    /* background-color: blue; */
+    float: right;
+    width: 380px;
+    height: 430px;
+    background-image: url("../images/body3_1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Upper_left_corner_left{
+    float: left;
+    width: 450px;
+    height: 430px;
+    /* background-color: rgb(98, 173, 108,0.5); */
+    background-image: url("../images/body3_2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Upper_left_corner_header{
+    margin-top: 20px !important;
+    /* margin-left: 30px; */
+    /* border: 1px solid red; */
+    height: 70px;
+    width: 430px;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    /* line-height: 40px; */
+}
+.Upper_left_corner_header p{
+    position: relative;
+    display: inline;
+    top: -13px;
+}
+
+.Upper_left_corner_header img{
+    width: 38px;
+    height: 47px;
+}
+.Upper_left_corner a{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-bottom: 28px;
+    float: left;
+    color: white;
+    font-size:16px;
+    text-decoration: none;
+}
+.Upper_right_corner_head{
+    /* border: 1px solid red; */
+    width:100%;
+    height: 160px;
+    background-image: url("../images/hnr.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 24px;
+    font-family: "13";
+    text-align: center;
+    line-height: 160px;
+}
+.Upper_right_corner_foot{
+    background-color: #faebd7;
+    height: 340px;
+    width: 100%;
+    /* border: 1px solid blue; */
+
+}
+.hn_buy{
+    /* border:1px solid rebeccapurple; */
+    width: 315px;
+    height: 100%;
+    float: left;
+    background-image: url("../images/body3_4.jpg");
+
+}
+.hn_js{
+    float: right;
+    /* border: 1px solid royalblue; */
+    width: 315px;
+    height: 100%;
+    /* color: white; */
+    font-family: "13";
+    font-size: 23px;
+    line-height: 40px;
+}
+.box_buy{
+    position: relative;
+    top: 100px;
+    left: 108px;
+    /* border: 1px solid rgb(14, 160, 90); */
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgba(54, 49, 49, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* background-image: url("../images/png9.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.box_buy img{
+    position:relative;
+    top:10px;
+    left: 33px;
+}
+.box_buy p{
+    position: relative;
+    top: 20px;
+    left: 17px;
+    color: white;
+    font-size: 25px;
+    font-family: "13";
+}
+.box_buy :hover{
+    cursor: pointer;
+}
+.phone{
+    position: relative;
+    top: 120px;
+    left: 73px;
+    /* border: 1px solid rgb(14, 160, 90); */
+    width: 201px;
+    height: 95px;
+    color: black;
+    font-family: "13";
+    font-size: 25px;
+    text-align: center;
+}
+
+.city_js{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    margin-top: 101px;
+    margin-left: 36px;
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 400px;
+    float: left;    
+    background-image: url("../images/jpg5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* 使背景图片变的透明 */
+    opacity: 0.7;
+
+}
+
+.zz{
+    margin-left: 50px !important;
+    margin-top: 101px !important;
+}
+
+.citys{
+    margin-top: 31px;
+    margin-left: 26px;
+    /* border: 1px solid blue; */
+    width: 350px;
+    height: 400px;
+    float: left;   
+}
+.city_js img{
+    position: relative;
+    top: 10px;
+    left: 36px;
+    /* display: inline; */
+    width: 38px;
+    height: 47px;
+}
+.city_js p{
+    position: relative;
+    display: inline;
+    top: -2px;
+    left: 38px;
+    color: white;
+    font-size: 39px;
+    font-family: "13";
+}
+.city_js_head{
+    position:relative;
+    top: 40px;
+    /* border: 1px solid seagreen; */
+    width: 100%;
+    height:70px
+}
+.line{
+    position: relative;
+    width: 5px !important;
+    left: 163px !important;
+    top: 70px !important;
+}
+#city_num{
+    color: white;
+    font-family: "13" !important;
+    font-size: 58px !important;
+    position: relative !important;
+    top: 155px !important;
+    left: 131px !important;
+}
+
+.zz{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-image: url("../images/zz.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.ly{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-image: url("../images/ly.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.zz img{
+    position: relative;
+    top: 11px;
+    left: 222px;
+    /* display: inline; */
+    width: 145px;
+    height: 72px;
+}
+.kf{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-image: url("../images/kf.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left;
+}
+.kf p{
+    font-family: "12";
+    font-size: 20px;
+    /* color: white; */
+    position: relative;
+    top: 21px;
+    left: 252px;
+    font-size: 44px;
+}
+
+.body4{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(122, 78, 41,0.6);
+}
+.dd{
+    /* border: 1px solid blue; */
+    height: 80px;
+    position:relative;
+    top:10px;
+    width: 100%;
+    text-align: center;
+}
+.subs_mod{
+    /* border: 1px solid green; */
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    width: 60px;
+    margin-left: 30px;
+    color: white;
+    font-family: "13";
+    font-size: 20px;
+}
+.icon{
+    border-radius: 70px;
+    background: #ecc14e;
+}
+.icon img{
+    width: 100%;
+}
+
+.tt{
+    /* border: 1px solid blue; */
+    height: 80px;
+    position:relative;
+    top:50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.hh{
+    /* border: 1px solid blue; */
+    height: 80px;
+    position:relative;
+    top:50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.body3_2{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(250, 235, 215,0.3);
+    /* background-image: url("/images/body3_2_1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center; */
+
+}
+
+.colleges{
+    position: relative;
+    top:131px;
+    left: 517px;
+    /* border: 1px solid red; */
+    height: 150px;
+    width: 600px;
+    font-family: "12";
+    font-size: 55px;
+    text-align: center;
+    /* background-image: url("/images/zz.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center; */
+}
+.schools{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    float: left;
+    margin-left: 50px;
+    position: relative;
+    top:150px;
+    left:100px
+}
+.college_img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 200px;
+}
+.ztbu_img{
+    background-image: url("../images/ztbu.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.zzdx_img{
+    background-image: url("../images/zzdx.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.hndx_img{
+    background-image: url("../images/hndx.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.college_head{
+    /* border: 1px solid  green; */
+    width: 100%;
+    height: 50px;
+    font-family: "13";
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.college_body{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 200px;
+    font-family: "13";
+    font-size: 20px;
+    /* text-align: center; */
+    line-height: 25px;
+    text-indent: 1cm;
+}
+.college_body p{
+    color: blue;
+}
+
+.schools :hover{
+    cursor: pointer;
+}
